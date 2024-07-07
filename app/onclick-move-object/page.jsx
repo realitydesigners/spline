@@ -11,7 +11,6 @@ const OnLoadTextChange = () => {
 		const Object = spline.findObjectByName("MoveThis");
 		if (ObjectRef) {
 			ObjectRef.current = Object;
-
 		}
 	};
 
