@@ -45,7 +45,7 @@ const Modal = ({ isOpen, onClose, objectName }) => {
 					<h2 className="text-3xl font-mono text-white font-bold mb-4">Opened Modal</h2>
 					<p className="text-white font-mono mb-4">Object Name: {objectName}</p>
 					<p className="text-sm text-gray-400 font-mono">
-						This is a modal that has appeared after you clicked the "ClickThis" object in Spline with a MouseDown event in the editor and using the onSplineMouseDown function.
+						This is a modal that has appeared after you clicked the &quot;ClickThis&quot; object in Spline with a MouseDown event in the editor and using the onSplineMouseDown function.
 						<br></br>
 						<br></br>
 						You can use this modal to provide additional information or actions related to the clicked object.
@@ -73,6 +73,5 @@ const Modal = ({ isOpen, onClose, objectName }) => {
 		</dialog>
 	);
 };
-
 
 export default OpenModalOnMouseDown;
